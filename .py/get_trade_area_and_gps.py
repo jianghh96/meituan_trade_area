@@ -94,7 +94,7 @@ def init():
             print(i)
             url = "http://restapi.amap.com/v3/geocode/geo"
             data = {
-                'key': 'e589c84d2fd18bd99317e53cc9ebc6f8',  # 在高德地图开发者平台申请的key，需要替换为自己的key
+                'key': 'xxxx',  # 在高德地图开发者平台申请的key，需要替换为自己的key
                 'address': address
             }
             r = requests.post(url, data=data).json()
