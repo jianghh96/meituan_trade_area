@@ -88,7 +88,7 @@ def init():
 
         wb = Workbook()
         sheet = wb.active
-        sheet.title = "qiang"
+        sheet.title = "trade_area"
 
         def get_location(address, i):
             print(i)
