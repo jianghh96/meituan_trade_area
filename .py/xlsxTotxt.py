@@ -10,7 +10,7 @@ def init():
             break
         fileName = 'city_area_gps_' + city_name + '.xlsx'
         fileHandler = xlrd.open_workbook(fileName)
-        sheet_name1 = u'qiang'
+        sheet_name1 = u'trade_area'
         page = fileHandler.sheet_by_name(sheet_name1)
         col1 = page.col_values(0)  # 商圈
         col2 = page.col_values(1)  # GPS
